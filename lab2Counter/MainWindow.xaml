@@ -1,0 +1,14 @@
+﻿<Window x:Class="lab2Counter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:lab2Counter"
+        mc:Ignorable="d"
+             Title="подсчет букв" Height="250" Width="300">
+    <Grid>
+        <TextBox Name="txtInput" Width="230" Height="30" VerticalAlignment="Top" Margin="20,10,20,0"/>
+        <Button Name="btnCount" Content="Подсчитать" Width="100" Height="40" VerticalAlignment="Top" Margin="20,60,0,0" HorizontalAlignment="Left" Click="btnCount_Click"/>
+        <Label Name="lblResult" Width="250" Height="80" VerticalAlignment="Top" Margin="20,120,0,0"/>
+    </Grid>
+</Window>
